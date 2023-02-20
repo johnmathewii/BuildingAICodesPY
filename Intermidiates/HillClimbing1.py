@@ -13,14 +13,15 @@ def climb(x, h):
     # edit here
     while not summit:
         summit = True         # stop unless there's a way up
-        if h[x + 1] > h[x] and (x!=99):
+        if h[x + 1] > h[x]:
             x = x + 1         # right is higher, go there
-            best_solution = x
             summit = False    # and keep going
+        elif h[x - 1] > h[x]:
+            x = x - 1
+            summit = False
         else:
-            x=x+1
-            summit = False         
-    return
+            summit = True
+    return x
 
 
 def main(h):

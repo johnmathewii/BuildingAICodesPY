@@ -1,7 +1,7 @@
 # Building AI  -  University of Helsinki
 
-## Free AI course by 
-[Elements of AI] (https://buildingai.elementsofai.com/)
+## Free AI course by [Elements of AI](https://buildingai.elementsofai.com/)
+
 
 These are answers to coding exercises provided in the course. A tat bit of Python knowledge is required to ace this course.
 
